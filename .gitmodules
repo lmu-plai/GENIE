@@ -1,0 +1,6 @@
+[submodule "codeql"]
+	path = codeql
+	url = https://github.com/github/codeql
+[submodule "all_NPM_package_names"]
+	path = all_NPM_package_names
+	url = https://github.com/nice-registry/all-the-package-names.git
