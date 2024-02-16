@@ -1,92 +1,76 @@
-Package-Name,Machine,Link,Path,Date-Download,Date-Delete,Trigger,Objective,Description,Cluster,Query
-rkpacktest,5,"npmjs.com/package/rkpacktest",/package/script.py,23.05,1 month ago,Runtime,Dependency Confusion,Python script for searching private packages and publishing public packages,1,Script in another language (Python)
-scilla,5,"npmjs.com/package/scilla",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-scilla-server,5,"npmjs.com/package/scilla-server",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-tangerine-state-viewer,5,"npmjs.com/package/tangerine-state-viewer",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-ual-reactjs-renderer-example,5,"npmjs.com/package/ual-reactjs-renderer-example",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-universal-authenticator-library-js-example,5,"npmjs.com/package/universal-authenticator-library-js-example",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-vault-updater,5,"npmjs.com/package/vault-updater",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-vimeo-threejs-player,5,"npmjs.com/package/vimeo-threejs-player",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-vimeo_depth_player,5,"npmjs.com/package/vimeo_depth_player",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-vt-blockchain-bootcamp-starter-frontend,5,"npmjs.com/package/vt-blockchain-bootcamp-starter-frontend",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-web-discovery-project,5,"npmjs.com/package/web-discovery-project",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-z-wallet,5,"npmjs.com/package/z-wallet",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-zilliqa-exchange-tutorial,5,"npmjs.com/package/zilliqa-exchange-tutorial",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-zilliqa-token-contract,5,"npmjs.com/package/zilliqa-token-contract",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-zilliqa-social-pay,5,"npmjs.com/package/zilliqa-social-pay",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-zrc2-wallet-zilliqa,5,"npmjs.com/package/zrc2-wallet-zilliqa",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-link-bubble,4,"npmjs.com/package/link-bubble",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-linkbubble-website,4,"npmjs.com/package/linkbubble-website",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-misk-web-tab-app,4,"npmjs.com/package/misk-web-tab-app",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-misk-web-tab-config,4,"npmjs.com/package/misk-web-tab-config",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-misk-web-tab-database,4,"npmjs.com/package/misk-web-tab-database",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-misk-web-docs,4,"npmjs.com/package/misk-web-docs",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-misk-web-tab-admin-dashboard,4,"npmjs.com/package/misk-web-tab-admin-dashboard",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-misk-web-tab-template-basic,4,"npmjs.com/package/misk-web-tab-template-basic",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-misk-web-tab-web-actions,4,"npmjs.com/package/misk-web-tab-web-actions",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-misk-webadmin,4,"npmjs.com/package/misk-webadmin",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-multisig,4,"npmjs.com/package/multisig",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-neo-savant,4,"npmjs.com/package/neo-savant",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-nucleus-wallet,4,"npmjs.com/package/nucleus-wallet",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-onepassword_events_api,4,"npmjs.com/package/onepassword_events_api",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-downloadkubernetes,3,"npmjs.com/package/downloadkubernetes",/package/index.js,24.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-jira-cloud-for-sketch,3,"npmjs.com/package/jira-cloud-for-sketch",/package/index.js,24.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-jira-frontend,3,"npmjs.com/package/jira-frontend",/package/index.js,24.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-kruit,3,"npmjs.com/package/kruit",/package/index.js,24.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-kubernetes-dashboard,3,"npmjs.com/package/kubernetes-dashboard",/package/index.js,24.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-kubernetes-ui,3,"npmjs.com/package/kubernetes-ui",/package/index.js,24.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-aframe-vimeo-component,2,"npmjs.com/package/aframe-vimeo-component",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-ai-aws-manager,2,"npmjs.com/package/ai-aws-manager",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-ai-cluster-manager,2,"npmjs.com/package/ai-cluster-manager",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-atlassian-sketch-plugin,2,"npmjs.com/package/atlassian-sketch-plugin",/package/index.js,23.05,22 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-bitgo-client,2,"npmjs.com/package/brave-bitgo-client",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-core,2,"npmjs.com/package/brave-core",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-eyeshade,2,"npmjs.com/package/brave-eyeshade",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-extension,2,"npmjs.com/package/brave-extension",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-chromium-themes,2,"npmjs.com/package/brave-chromium-themes",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-core-crx-packager,2,"npmjs.com/package/brave-core-crx-packager",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-ios,2,"npmjs.com/package/brave-ios",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-ledger,2,"npmjs.com/package/brave-ledger",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-brave-research-participation-tool,2,"npmjs.com/package/brave-research-participation-tool",/package/index.js,23.05,17 days ago,Install,Unknown,Requests some unknown IP address and saves itself as dependency,2,request_save_prod
-web-excess,5,"npmjs.com/package/web-excess",/package/index.js,23.05,1 month ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-rc-trigger-popup,4,"npmjs.com/package/rc-trigger-popup",/package/index.js,23.05,17 days ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-orion-web,4,"npmjs.com/package/orion-web",/package/index.js,23.05,17 days ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-gd-activity-tracker,3,"npmjs.com/package/gd-activity-tracker",/package/index.js,24.05,17 days ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-@strava/clio,2,"npmjs.com/package/@strava/clio",/package/index.js,23.05,17 days ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-@transaction-history/ui-components,2,"npmjs.com/package/@transaction-history/ui-components",/package/index.js,23.05,17 days ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-acronis-ui-kit,2,"npmjs.com/package/acronis-ui-kit",/package/index.js,23.05,17 days ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-@chegg-me-components/header,1,"npmjs.com/package/@chegg-me-components/header",/package/index.js,25.05,1 month ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-@design-components/customer,1,"npmjs.com/package/@design-components/customer",/package/index.js,25.05,1 month ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-@pixiv-vroid-hub/vroid-hub-viewer,1,"npmjs.com/package/@pixiv-vroid-hub/vroid-hub-viewer",/package/index.js,25.05,1 month ago,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),3,bug_bounty_exfiltration
-zomato-ui,5,"npmjs.com/package/zomato-ui",/package/index.js,23.05,17 days ago,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),3*,bug_bounty_exfiltration
-paytm-kafka-rest,4,"npmjs.com/package/paytm-kafka-rest",/package/index.js,23.05,17 days ago,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),3*,bug_bounty_exfiltration
-ptmproc,4,"npmjs.com/package/ptmproc",/package/index.js,23.05,17 days ago,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),3*,bug_bounty_exfiltration
-dashboard-modules,3,"npmjs.com/package/dashboard-modules",/package/index.js,24.05,17 days ago,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),3*,bug_bounty_exfiltration
-holvi-validation,3,"npmjs.com/package/holvi-validation",/package/index.js,24.05,17 days ago,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),3*,bug_bounty_exfiltration
-sp-bootstrap,5,"npmjs.com/package/sp-bootstrap",/package/index.js,23.05,17 days ago,Install,Data Exfiltration,Steals ENV variables and sends them using HTTP Request,4,filter_environment_theft
-sushi-client,5,"npmjs.com/package/sushi-client",/package/index.js,23.05,1 month ago,Install,Data Exfiltration,Steals ENV variables and sends them using HTTP Request,4,filter_environment_theft
-@prescreen/distillery,1,"npmjs.com/package/@prescreen/distillery",/package/index.js,25.05,16 days ago,Install,Data Exfiltration,Steals ENV variables and sends them using HTTP Request (without filtering),4*,filter_environment_theft
-ddd-demo,3,"npmjs.com/package/ddd-demo",/package/README.md,24.05,22 days ago,Runtime,Unknown,Script embedded on README.md file (for security concerns),5,Script in another language (Shell)
-ddd-demo2,3,"npmjs.com/package/ddd-demo2",/package/README.md,24.05,22 days ago,Runtime,Unknown,Script embedded on README.md file (for security concerns),5,Script in another language (Shell)
-ddd-demo3,3,"npmjs.com/package/ddd-demo3",/package/README.md,24.05,22 days ago,Runtime,Unknown,Script embedded on README.md file (for security concerns),5,Script in another language (Shell)
-dependencyconfusioncve,3,"npmjs.com/package/dependencyconfusioncve",/package/index.js,24.05,1 month ago,Runtime,Unknown,Just console.logs some 'menacing' message to the terminal,6,Not considered malware
-dependencyconfusioncve2,3,"npmjs.com/package/dependencyconfusioncve2",/package/index.js,24.05,1 month ago,Runtime,Unknown,Just console.logs some 'menacing' message to the terminal,6,Not considered malware
-bounty-plz,2,"npmjs.com/package/bounty-plz",/package/index.js,23.05,1 month ago,Runtime,Unknown,Just console.logs some 'menacing' message to the terminal,6,Not considered malware
-wagtail-supertable,5,"npmjs.com/package/wagtail-supertable",/package/package.json,23.05,1 month ago,Runtime,Unknown,An empty package with only a package.json file (depends on deprecated package),7,Not considered malware
-isomorphic-core,3,"npmjs.com/package/isomorphic-core",/package/package.json,24.05,1 month ago,Runtime,Unknown,An empty package with only a package.json file,7,Not considered malware
-thisisveryfistpackage11,5,"npmjs.com/package/thisisveryfistpackage11",/package/build.sh,23.05,21 days ago,Install,Data Exfiltration,Runs shell script that executes a curl command,8,Script in another language (Shell)
-anotherpackagefor101,2,"npmjs.com/package/anotherpackagefor101",/package/build.sh,23.05,21 days ago,Install,Data Exfiltration,Runs shell script that executes a curl command,8,Script in another language (Shell)
-ai-indeed,2,"npmjs.com/package/ai-indeed",/package/index.js,23.05,1 month ago,Runtime,Unknown,Sends an HTTP Request to some unknown address and saves the response in a variable (with compilation errors),9,Not considered malware
-csdn-tree,2,"npmjs.com/package/csdn-tree",/package/index.js,23.05,1 month ago,Runtime,Unknown,Sends an HTTP Request to some unknown address and saves the response in a variable (with compilation errors),9,Not considered malware
-test-depss,5,"npmjs.com/package/test-depss",/package/index.js,23.05,22 days ago,Runtime,Unknown,Executes a curl command to some unknown address,10,curl_webhook_site
-node-dvnr,4,"npmjs.com/package/node-dvnr",/package/package.json,23.05,22 days ago,Install,Unknown,Installs some unknown package and adds it as dependency,11,dependency_install_threat
-on-running-script-context,4,"npmjs.com/package/on-running-script-context",/package/build.js,23.05,22 days ago,Install,Data Exfiltration,Sends OS information (hostname & username & network-interfaces & CWD) through ping command,12,ping_information_theft
-angieslist-visitor-app-common,2,"npmjs.com/package/angieslist-visitor-app-common",/package/index.js,23.05,22 days ago,Install,Data Exfiltration,Sends package & DNS & OS information (homedir & hostname & username) to unknown address,13,os_information_theft
-@adam_baldwin/tag-tmp,1,"npmjs.com/package/@adam_baldwin/tag-tmp",/package/package.json,25.05,1 month ago,Install,Unknown,Drops a file in /tmp/ directory,14,Not considered malware
-stylis-ifl4,5,"npmjs.com/package/stylis-ifl4",...,23.05,1 month ago,...,Unknown,May be missing some source code (does not seem malicious),21,Not considered malware
-discordjs-selfbotjs,3,"npmjs.com/package/discordjs-selfbotjs",/package/data/index.js,24.05,1 month ago,Install,Data Exfiltration,Seems to contain a bunch of different malicious behaviours related mostly to Discord (also targetting other popular apps),15,minecraft_data_theft
-epic-ue-fonts,3,"npmjs.com/package/epic-ue-fonts",/package/nzhtdtm.js,24.05,1 month ago,Install,Data Exiltration,Seems to steal ENV variables with a heavily obfuscated source code,16,obfuscated_array_request
-api-token-admin,2,"npmjs.com/package/api-token-admin",...,23.05,1 month ago,...,Unknown,May be missing some source code (does not seem malicious),20,Not considered malware
-color-xzibit,2,"npmjs.com/package/color-xzibit",/package/colors/eval.js,23.05,1 month ago,Runtime,Data Exfiltration,Seems to steal discord tokens (and some OS information) with an HTTP Request,17,discord_token_steal
-@adam_baldwin/sample_4,1,"npmjs.com/package/@adam_baldwin/sample_4",/package/postinstall.js,25.05,1 month ago,Install,Unknown,Uses library Wreck to GET a payload from an unknown address,18,suspicious_wreck_request
-@blackice12/tiny,1,"npmjs.com/package/@blackice12/tiny",/package/index.js,25.05,22 days ago,Runtime,Backdoor,Targets 'discord_voice' functionality appending malicious behaviour,19,discord_service_denial
+Package-Name,Link,Path,Date-Download,Trigger,Objective,Description,Cluster,Query
+scilla,"npmjs.com/package/scilla",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+scilla-server,"npmjs.com/package/scilla-server",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+tangerine-state-viewer,"npmjs.com/package/tangerine-state-viewer",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+ual-reactjs-renderer-example,"npmjs.com/package/ual-reactjs-renderer-example",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+universal-authenticator-library-js-example,"npmjs.com/package/universal-authenticator-library-js-example",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+vault-updater,"npmjs.com/package/vault-updater",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+vimeo-threejs-player,"npmjs.com/package/vimeo-threejs-player",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+vimeo_depth_player,"npmjs.com/package/vimeo_depth_player",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+vt-blockchain-bootcamp-starter-frontend,"npmjs.com/package/vt-blockchain-bootcamp-starter-frontend",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+web-discovery-project,"npmjs.com/package/web-discovery-project",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+z-wallet,"npmjs.com/package/z-wallet",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+zilliqa-exchange-tutorial,"npmjs.com/package/zilliqa-exchange-tutorial",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+zilliqa-token-contract,"npmjs.com/package/zilliqa-token-contract",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+zilliqa-social-pay,"npmjs.com/package/zilliqa-social-pay",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+zrc2-wallet-zilliqa,"npmjs.com/package/zrc2-wallet-zilliqa",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+link-bubble,"npmjs.com/package/link-bubble",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+linkbubble-website,"npmjs.com/package/linkbubble-website",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+misk-web-tab-app,"npmjs.com/package/misk-web-tab-app",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+misk-web-tab-config,"npmjs.com/package/misk-web-tab-config",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+misk-web-tab-database,"npmjs.com/package/misk-web-tab-database",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+misk-web-docs,"npmjs.com/package/misk-web-docs",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+misk-web-tab-admin-dashboard,"npmjs.com/package/misk-web-tab-admin-dashboard",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+misk-web-tab-template-basic,"npmjs.com/package/misk-web-tab-template-basic",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+misk-web-tab-web-actions,"npmjs.com/package/misk-web-tab-web-actions",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+misk-webadmin,"npmjs.com/package/misk-webadmin",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+multisig,"npmjs.com/package/multisig",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+neo-savant,"npmjs.com/package/neo-savant",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+nucleus-wallet,"npmjs.com/package/nucleus-wallet",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+onepassword_events_api,"npmjs.com/package/onepassword_events_api",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+downloadkubernetes,"npmjs.com/package/downloadkubernetes",/package/index.js,24.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+jira-cloud-for-sketch,"npmjs.com/package/jira-cloud-for-sketch",/package/index.js,24.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+jira-frontend,"npmjs.com/package/jira-frontend",/package/index.js,24.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+kruit,"npmjs.com/package/kruit",/package/index.js,24.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+kubernetes-dashboard,"npmjs.com/package/kubernetes-dashboard",/package/index.js,24.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+kubernetes-ui,"npmjs.com/package/kubernetes-ui",/package/index.js,24.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+aframe-vimeo-component,"npmjs.com/package/aframe-vimeo-component",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+ai-aws-manager,"npmjs.com/package/ai-aws-manager",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+ai-cluster-manager,"npmjs.com/package/ai-cluster-manager",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+atlassian-sketch-plugin,"npmjs.com/package/atlassian-sketch-plugin",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-bitgo-client,"npmjs.com/package/brave-bitgo-client",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-core,"npmjs.com/package/brave-core",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-eyeshade,"npmjs.com/package/brave-eyeshade",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-extension,"npmjs.com/package/brave-extension",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-chromium-themes,"npmjs.com/package/brave-chromium-themes",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-core-crx-packager,"npmjs.com/package/brave-core-crx-packager",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-ios,"npmjs.com/package/brave-ios",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-ledger,"npmjs.com/package/brave-ledger",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+brave-research-participation-tool,"npmjs.com/package/brave-research-participation-tool",/package/index.js,23.05,Install,Unknown,Requests some unknown IP address and saves itself as dependency,1,dependency-save
+web-excess,"npmjs.com/package/web-excess",/package/index.js,23.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+rc-trigger-popup,"npmjs.com/package/rc-trigger-popup",/package/index.js,23.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+orion-web,"npmjs.com/package/orion-web",/package/index.js,23.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+gd-activity-tracker,"npmjs.com/package/gd-activity-tracker",/package/index.js,24.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+@strava/clio,"npmjs.com/package/@strava/clio",/package/index.js,23.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+@transaction-history/ui-components,"npmjs.com/package/@transaction-history/ui-components",/package/index.js,23.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+acronis-ui-kit,"npmjs.com/package/acronis-ui-kit",/package/index.js,23.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+@chegg-me-components/header,"npmjs.com/package/@chegg-me-components/header",/package/index.js,25.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+@design-components/customer,"npmjs.com/package/@design-components/customer",/package/index.js,25.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+@pixiv-vroid-hub/vroid-hub-viewer,"npmjs.com/package/@pixiv-vroid-hub/vroid-hub-viewer",/package/index.js,25.05,Install,Data Exfiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (harbitz),2,theft-dns
+zomato-ui,"npmjs.com/package/zomato-ui",/package/index.js,23.05,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),2,theft-dns
+paytm-kafka-rest,"npmjs.com/package/paytm-kafka-rest",/package/index.js,23.05,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),2,theft-dns
+ptmproc,"npmjs.com/package/ptmproc",/package/index.js,23.05,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),2,theft-dns
+dashboard-modules,"npmjs.com/package/dashboard-modules",/package/index.js,24.05,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),2,theft-dns
+holvi-validation,"npmjs.com/package/holvi-validation",/package/index.js,24.05,Install,Data Exiltration,Steals specific package and OS information and sends it using DNS to claim bug bounty (alxbrsn),2,theft-dns
+sp-bootstrap,"npmjs.com/package/sp-bootstrap",/package/index.js,23.05,Install,Data Exfiltration,Steals ENV variables and sends them using HTTP Request,3,theft-environment
+sushi-client,"npmjs.com/package/sushi-client",/package/index.js,23.05,Install,Data Exfiltration,Steals ENV variables and sends them using HTTP Request,3,theft-environment
+@prescreen/distillery,"npmjs.com/package/@prescreen/distillery",/package/index.js,25.05,Install,Data Exfiltration,Steals ENV variables and sends them using HTTP Request (without filtering),3,theft-environment
+test-depss,"npmjs.com/package/test-depss",/package/index.js,23.05,Runtime,Unknown,Executes a curl command to some unknown address,4,other-shell
+node-dvnr,"npmjs.com/package/node-dvnr",/package/package.json,23.05,Install,Unknown,Installs some unknown package and adds it as dependency,5,dependency-install
+on-running-script-context,"npmjs.com/package/on-running-script-context",/package/build.js,23.05,Install,Data Exfiltration,Sends OS information (hostname & username & network-interfaces & CWD) through ping command,6,theft-ping
+angieslist-visitor-app-common,"npmjs.com/package/angieslist-visitor-app-common",/package/index.js,23.05,Install,Data Exfiltration,Sends package & DNS & OS information (homedir & hostname & username) to unknown address,7,theft-os
+discordjs-selfbotjs,"npmjs.com/package/discordjs-selfbotjs",/package/data/index.js,24.05,Install,Data Exfiltration,Seems to contain a bunch of different malicious behaviours related mostly to Discord (also targetting other popular apps),8,discord-ware
+epic-ue-fonts,"npmjs.com/package/epic-ue-fonts",/package/nzhtdtm.js,24.05,Install,Data Exiltration,Seems to steal ENV variables with a heavily obfuscated source code,9,theft-encoded
+color-xzibit,"npmjs.com/package/color-xzibit",/package/colors/eval.js,23.05,Runtime,Data Exfiltration,Seems to steal discord tokens (and some OS information) with an HTTP Request,10,discord-steal
+@adam_baldwin/sample_4,"npmjs.com/package/@adam_baldwin/sample_4",/package/postinstall.js,25.05,Install,Unknown,Uses library Wreck to GET a payload from an unknown address,11,other-request
+@blackice12/tiny,"npmjs.com/package/@blackice12/tiny",/package/index.js,25.05,Runtime,Backdoor,Targets 'discord_voice' functionality appending malicious behaviour,12,discord-injection
