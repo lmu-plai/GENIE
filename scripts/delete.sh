@@ -86,8 +86,8 @@ select delete in 'Help' 'Done' 'DS' 'CB' 'DB' 'CQL' 'HASH' 'LOG'; do
         DS   ) delete_DS;;
         CB   ) delete_CB;;
         DB   ) delete_DB;;
-	CQL  ) delete_CQL;;
-	HASH ) delete_HASH;;
+        CQL  ) delete_CQL;;
+        HASH ) delete_HASH;;
         LOG  ) delete_LOG;;
         *    ) echo "Unknown action > $REPLY";;
     esac

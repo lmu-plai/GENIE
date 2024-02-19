@@ -376,8 +376,8 @@ while getopts 'dbcq:hl:' OPERATION; do
             echo "Querying!"
             query_NPM $OPTARG;;
         h)
-	    echo "Hashing!"
-	    hash_NPM;;
+            echo "Hashing!"
+            hash_NPM;;
         l)
             echo "Logging!"
             log_NPM $OPTARG;;
