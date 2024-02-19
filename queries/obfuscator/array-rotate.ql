@@ -1,14 +1,14 @@
 /**
- * @name javascript_obfuscator_D
+ * @name array-rotate
  * @description Obfuscation
  * @kind path-problem
  * @problem.severity error
- * @security-severity 9.0
+ * @security-severity 1.0
  * @precision low
- * @id npm/epic-ue-fonts
+ * @id npm/test-pls
  * @tags security
  *       obfuscator
- *       taint
+ *       patterns
  */
 
 import javascript
@@ -30,8 +30,6 @@ import DataFlow::PathGraph
 // >>>) array literal > take an element > use for method-call naming     | (OK)
 // >) Other
 // >>>) array literal > check an element > has "num-char" string format  | (OK)
-// >>>) array literal > compute a magic-number index > take an element   | (--)
-// >>>) array literal > take some elements > compute a magic-number      | (--)
 
 
 class TargetArray extends DataFlow::ArrayLiteralNode {

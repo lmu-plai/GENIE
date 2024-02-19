@@ -1,9 +1,7 @@
-name: mgobbi289/npm-malware-queries
-version: 0.0.0
-authors: mgobbi289@github.com
-description: Detection of Malicious Code on NPM's Packages
+name: npm-malware-queries
+version: 1.0.0
+description: CodeQL-based Detection of Malicious Packages
 # The CodeQL's Repository needs to be included to allow the use of its libraries
 # Make sure that both, CodeQL's executable and libraries, are in the same directory
-libraryPathDependencies: codeql-javascript
 dependencies:
-        codeql/javascript-all: '*'
+    codeql/javascript-all: '*'

@@ -1,14 +1,14 @@
 /**
- * @name javascript_obfuscator_C
+ * @name array-parse-rotate
  * @description Obfuscation
  * @kind path-problem
  * @problem.severity error
- * @security-severity 9.0
+ * @security-severity 1.0
  * @precision low
- * @id npm/epic-ue-fonts
+ * @id npm/test-pls
  * @tags security
  *       obfuscator
- *       taint
+ *       patterns
  */
 
 import javascript
@@ -25,13 +25,11 @@ import DataFlow::PathGraph
 // --------------------
 // >) Sorting
 // >>>) array literal > take an element > apply parseInt                 | (OK)
-// >>>) array literal > apply push-&-shift                               | (NO)
+// >>>) array literal > apply push-&-shift                               | (OK)
 // >) Flow
 // >>>) array literal > take an element > use for method-call naming     | (OK)
 // >) Other
 // >>>) array literal > check an element > has "num-char" string format  | (OK)
-// >>>) array literal > compute a magic-number index > take an element   | (--)
-// >>>) array literal > take some elements > compute a magic-number      | (--)
 
 
 class TargetArray extends DataFlow::ArrayLiteralNode {
@@ -81,10 +79,29 @@ class ArrayParse_Configuration extends TaintTracking::Configuration {
 }
 
 
+// Taint-Tracking configuration for this problem
+class ArrayCycle_Configuration extends TaintTracking::Configuration {
+    ArrayCycle_Configuration() { this = "Array Push-&-Shift" }
+
+    // Source: Array with suspicious strings
+    override predicate isSource(DataFlow::Node source) { source instanceof TargetArray }
+
+    // Sink: Applying .push() & .shift() to the array
+    override predicate isSink(DataFlow::Node sink) {
+        exists( DataFlow::MethodCallNode call_S, DataFlow::MethodCallNode call_P, DataFlow::Node node_S, DataFlow::Node node_P
+              | node_S.getALocalSource() = sink and call_S.calls(node_S, "shift")
+            and node_P.getALocalSource() = sink and call_P.calls(node_P, "push")
+              | call_P.getAnArgument() = call_S
+              )
+    }
+}
+
+
 from Obfuscator_Configuration cfg,
      ArrayParse_Configuration parse,
+     ArrayCycle_Configuration cycle,
      DataFlow::PathNode source, DataFlow::PathNode sink,
-     int p_COUNT
+     int p_COUNT, int c_COUNT
 where cfg.hasFlowPath(source, sink)
   // Be sure that source and sink are in the same file
   and source.getNode().getFile() = sink.getNode().getFile()
@@ -92,10 +109,14 @@ where cfg.hasFlowPath(source, sink)
   and p_COUNT = strictcount( DataFlow::Node p_SINK
                            | parse.hasFlow(source.getNode(), p_SINK)
                            )
+  // Be sure that .push() & .shift() get applied to the array (and count it)
+  and c_COUNT = strictcount( DataFlow::Node c_SINK
+                           | cycle.hasFlow(source.getNode(), c_SINK)
+                           )
 select sink.getNode(),
        source,
        sink,
-       "$@ to $@ | PARSE: " + p_COUNT,
+       "$@ to $@ | PARSE: " + p_COUNT + " | CYCLE: " + c_COUNT,
        source.getNode(),
        "SOURCE",
        sink.getNode(),
