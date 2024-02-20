@@ -18,10 +18,10 @@ if [ ! -z "$OPTION" ]; then
 fi
 
 
-PROGRAM_NAME='DEMISEC'
+PROGRAM_NAME='GENIE'
 PS3="$PROGRAM_NAME > "
 
-echo "DEMISEC | Select an action to perform..."
+echo "GENIE | Select an action to perform..."
 select action in 'Help' 'Exit' 'Setup' 'Delete'; do
     case $action in
         Help   ) REPLY='';;

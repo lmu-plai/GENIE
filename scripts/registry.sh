@@ -32,12 +32,12 @@ download_Package()
     NPM_Name=${NPM_Name//\'/\_}    # Replace all ''' characters for '_' characters
 
     # Where we want to store the compressed tar
-    DS_Path=$DEMISEC_DS_NPM$NPM_Name
+    DS_Path=$GENIE_DS_NPM$NPM_Name
     # Where we want to store the source code
-    CB_Path=$DEMISEC_CB_NPM$NPM_Name
+    CB_Path=$GENIE_CB_NPM$NPM_Name
     # Where we want to store log information
-    LOG_SOURCE=$DEMISEC_LOG_Source$NPM_Name$LOG_EXTENSION
-    LOG_DOWNLOAD=$DEMISEC_LOG_Download$NPM_Name$LOG_EXTENSION
+    LOG_SOURCE=$GENIE_LOG_Source$NPM_Name$LOG_EXTENSION
+    LOG_DOWNLOAD=$GENIE_LOG_Download$NPM_Name$LOG_EXTENSION
 
     # Check if already downloaded this package
     if [ -d $DS_Path ]; then exit $OMITTED_CODE; fi
@@ -62,7 +62,7 @@ doc
 download_NPM()
 {
     # LOG for Parallel-Job
-    JOB_Path=$DEMISEC_LOG_Parallel'download_NPM'$LOG_EXTENSION
+    JOB_Path=$GENIE_LOG_Parallel'download_NPM'$LOG_EXTENSION
 
     SECONDS=0
 
@@ -91,9 +91,9 @@ build_Package()
     NPM_Name=$(basename $CB_Path);
 
     # Where we want to store CodeQL's database
-    DB_Path=$DEMISEC_DB_NPM$NPM_Name
+    DB_Path=$GENIE_DB_NPM$NPM_Name
     # Where we want to store log information
-    LOG_BUILD=$DEMISEC_LOG_Build$NPM_Name$LOG_EXTENSION
+    LOG_BUILD=$GENIE_LOG_Build$NPM_Name$LOG_EXTENSION
 
     # Check if already built the DB for this package
     if [ -d $DB_Path ]; then exit $OMITTED_CODE; fi
@@ -111,14 +111,14 @@ doc
 build_NPM()
 {
     # CBs from where to build DBs
-    CB_Path=$DEMISEC_CB_NPM
+    CB_Path=$GENIE_CB_NPM
     # LOG for Parallel-Job
-    JOB_Path=$DEMISEC_LOG_Parallel'build_NPM'$LOG_EXTENSION
+    JOB_Path=$GENIE_LOG_Parallel'build_NPM'$LOG_EXTENSION
 
     SECONDS=0
 
     # Since the argument would be too long, we save all paths in a .tmp file
-    ALL_CBs=$DEMISEC_CB'all_CBs'$TMP_EXTENSION
+    ALL_CBs=$GENIE_CB'all_CBs'$TMP_EXTENSION
 
     touch $ALL_CBs
     for Single_CB in $CB_Path*; do
@@ -154,7 +154,7 @@ clean_Package()
     NPM_Name=$(basename $DB_Path);
 
     # Where we want to store log information
-    LOG_CLEAN=$DEMISEC_LOG_Clean$NPM_Name$LOG_EXTENSION
+    LOG_CLEAN=$GENIE_LOG_Clean$NPM_Name$LOG_EXTENSION
 
     # Cleaning DataBase
     UTILS_Clean_DB $DB_Path $LOG_CLEAN
@@ -169,14 +169,14 @@ doc
 clean_NPM()
 {
     # DBs which we want to clean
-    DB_Path=$DEMISEC_DB_NPM
+    DB_Path=$GENIE_DB_NPM
     # LOG for Parallel-Job
-    JOB_Path=$DEMISEC_LOG_Parallel'clean_NPM'$LOG_EXTENSION
+    JOB_Path=$GENIE_LOG_Parallel'clean_NPM'$LOG_EXTENSION
 
     SECONDS=0
 
     # Since the argument would be too long, we save all paths in a .tmp file
-    ALL_DBs=$DEMISEC_DB'all_DBs'$TMP_EXTENSION
+    ALL_DBs=$GENIE_DB'all_DBs'$TMP_EXTENSION
 
     touch $ALL_DBs
     for Single_DB in $DB_Path*; do
@@ -212,9 +212,9 @@ query_Package()
     NPM_Name=$(basename $DB_Path);
 
     # Where we want to store CodeQL's results
-    OUT_Path=$DEMISEC_QUERY_Output$NPM_Name$OUT_EXTENSION
+    OUT_Path=$GENIE_QUERY_Output$NPM_Name$OUT_EXTENSION
     # Where we want to store log information
-    LOG_QUERY=$DEMISEC_LOG_Query$NPM_Name$LOG_EXTENSION
+    LOG_QUERY=$GENIE_LOG_Query$NPM_Name$LOG_EXTENSION
 
     # Querying DataBase
     UTILS_Query_DB $QUERY_Path $DB_Path $OUT_Path $LOG_QUERY
@@ -231,14 +231,14 @@ query_NPM()
     QUERY_Path=$@
 
     # DBs which we want to query
-    DB_Path=$DEMISEC_DB_NPM
+    DB_Path=$GENIE_DB_NPM
     # LOG for Parallel-Job
-    JOB_Path=$DEMISEC_LOG_Parallel'query_NPM'$LOG_EXTENSION
+    JOB_Path=$GENIE_LOG_Parallel'query_NPM'$LOG_EXTENSION
 
     SECONDS=0
 
     # Since the argument would be too long, we save all paths in a .tmp file
-    ALL_DBs=$DEMISEC_DB'all_DBs'$TMP_EXTENSION
+    ALL_DBs=$GENIE_DB'all_DBs'$TMP_EXTENSION
 
     touch $ALL_DBs
     for Single_DB in $DB_Path*; do
@@ -274,18 +274,18 @@ hash_Package()
     NPM_Name=$(basename $CB_Path);
 
     # Where we want to store package's fingerprint
-    SHA_Path=$DEMISEC_SHA_Code$NPM_Name$SHA_EXTENSION
+    SHA_Path=$GENIE_SHA_Code$NPM_Name$SHA_EXTENSION
     # Where we want to store hash-matching result
-    CMP_Path=$DEMISEC_SHA_Match$NPM_Name$CMP_EXTENSION
+    CMP_Path=$GENIE_SHA_Match$NPM_Name$CMP_EXTENSION
     # Where we want to store log information
-    LOG_HASH=$DEMISEC_LOG_Hash$NPM_Name$LOG_EXTENSION
+    LOG_HASH=$GENIE_LOG_Hash$NPM_Name$LOG_EXTENSION
 
     # Generating fingerprint for package
     UTILS_Generate_SHA $CB_Path $SHA_Path $LOG_HASH
     if [ $? -ne 0 ]; then exit $FAILURE_CODE_PRINT; fi
 
     # Searching for SHA matches
-    for malware_SHA in $DEMISEC_SHA_Data*; do
+    for malware_SHA in $GENIE_SHA_Data*; do
         malware_Name=$(basename $malware_SHA $SHA_EXTENSION);
 
 	UTILS_Compare_SHA $SHA_Path $malware_SHA $LOG_HASH
@@ -301,14 +301,14 @@ doc
 hash_NPM()
 {
     # CBs that will be hashed
-    CB_Path=$DEMISEC_CB_NPM
+    CB_Path=$GENIE_CB_NPM
     # LOG for Parallel-Job
-    JOB_Path=$DEMISEC_LOG_Parallel'hash_NPM'$LOG_EXTENSION
+    JOB_Path=$GENIE_LOG_Parallel'hash_NPM'$LOG_EXTENSION
 
     SECONDS=0
 
     # Since the argument would be too long, we save all paths in a .tmp file
-    ALL_CBs=$DEMISEC_CB'all_CBs'$TMP_EXTENSION
+    ALL_CBs=$GENIE_CB'all_CBs'$TMP_EXTENSION
 
     touch $ALL_CBs
     for Single_CB in $CB_Path*; do

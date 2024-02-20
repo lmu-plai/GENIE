@@ -17,8 +17,8 @@ Delete snapshot.
 doc
 delete_DS()
 {
-    delete_Contents $DEMISEC_DS_NPM
-    delete_Contents $DEMISEC_DS
+    delete_Contents $GENIE_DS_NPM
+    delete_Contents $GENIE_DS
 }
 
 <<doc
@@ -26,8 +26,8 @@ Delete codebases.
 doc
 delete_CB()
 {
-    delete_Contents $DEMISEC_CB_NPM
-    delete_Contents $DEMISEC_CB
+    delete_Contents $GENIE_CB_NPM
+    delete_Contents $GENIE_CB
 }
 
 <<doc
@@ -35,8 +35,8 @@ Delete databases.
 doc
 delete_DB()
 {
-    delete_Contents $DEMISEC_DB_NPM
-    delete_Contents $DEMISEC_DB
+    delete_Contents $GENIE_DB_NPM
+    delete_Contents $GENIE_DB
 }
 
 <<doc
@@ -44,8 +44,8 @@ Delete query results.
 doc
 delete_CQL()
 {
-    delete_Contents $DEMISEC_QUERY_Output
-    delete_Contents $DEMISEC_QUERY
+    delete_Contents $GENIE_QUERY_Output
+    delete_Contents $GENIE_QUERY
 }
 
 <<doc
@@ -53,10 +53,10 @@ Delete hash results.
 doc
 delete_HASH()
 {
-    delete_Contents $DEMISEC_SHA_Data
-    delete_Contents $DEMISEC_SHA_Code
-    delete_Contents $DEMISEC_SHA_Match
-    delete_Contents $DEMISEC_SHA
+    delete_Contents $GENIE_SHA_Data
+    delete_Contents $GENIE_SHA_Code
+    delete_Contents $GENIE_SHA_Match
+    delete_Contents $GENIE_SHA
 }
 
 <<doc
@@ -64,14 +64,14 @@ Delete LOGs.
 doc
 delete_LOG()
 {
-    delete_Contents $DEMISEC_LOG_Download
-    delete_Contents $DEMISEC_LOG_Source
-    delete_Contents $DEMISEC_LOG_Build
-    delete_Contents $DEMISEC_LOG_Clean
-    delete_Contents $DEMISEC_LOG_Query
-    delete_Contents $DEMISEC_LOG_Hash
-    delete_Contents $DEMISEC_LOG_Parallel
-    delete_Contents $DEMISEC_LOG
+    delete_Contents $GENIE_LOG_Download
+    delete_Contents $GENIE_LOG_Source
+    delete_Contents $GENIE_LOG_Build
+    delete_Contents $GENIE_LOG_Clean
+    delete_Contents $GENIE_LOG_Query
+    delete_Contents $GENIE_LOG_Hash
+    delete_Contents $GENIE_LOG_Parallel
+    delete_Contents $GENIE_LOG
 }
 
 
