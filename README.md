@@ -1,7 +1,9 @@
 # GENIE
 ### Guarding the npm Ecosystem: CodeQL-based Detection of Malicious Packages
 
+
 ---
+
 
 #### Disclaimer
 
@@ -9,50 +11,51 @@ The repository contains malicious packages that were uploaded to the npm registr
 In ```packages/dataset/``` we include the packages that were used to develop the CodeQL queries.
 In ```packages/report/``` we include the packages that were detected as malicious once applied our approach.
 
-## Objective
 
-Develop **CodeQL** queries to detect malicious packages in the **npm** registry.
+## Overview
 
-The idea is to design queries iteratively, using recently reported packages as templates, and continuously study the progress made by applying them to CodeQL databases.
+**GENIE** is a command-line tool designed to apply CodeQL queries to the npm registry, with the aim of finding malicious JavaScript packages.
+It provides functionality to download packages, build and scan databases, and compute the overall results.
+The CodeQL queries defined for the paper are provided in ```queries/```, while the malware is stored in ```packages/```.
 
-## Install
+In the paper, we develop **CodeQL** queries to detect malicious packages in the **npm** registry.
+Using recently reported packages as templates, for developing specific CodeQL queries, we aim to discover semantically similar malware in the ecosystem.
 
-* parallel
 
-* npm (as **npm** in `$PATH`)
+## Installation
 
-* codeql (as **codeql** in `$PATH`)
+Before using GENIE, ensure that the following is installed on your system.
+
+* [GNU Parallel](https://www.gnu.org/software/parallel/)
+
+* [npm CLI](https://docs.npmjs.com/cli/v10) (as **npm** in `$PATH`)
+
+* [CodeQL](https://codeql.github.com) (as **codeql** in `$PATH`)
   * *Where the executable needs to be in the same directory as its libraries.*
 
-From CodeQL documentation...
+Once done this, make sure to clone the necessary submodules (```git submodule update --init --recursive```).
 
-> The default exclusion patterns cause the following files to be excluded: All *JavaScript* files whose name ends with `-min.js` or `.min.js`. Such files typically contain minified code. Since *LGTM* by default does not show results in minified files, it is not usually worth extracting them in the first place.
+Now everything should be ready to use GENIE.
 
-To tell the CodeQL JavaScript Auto-Builder not to exclude minified files by default, set the following environment variable:
 
-```bash
-export LGTM_INDEX_FILTERS="include: **/*-min.js
-                           include: **/*.min.js"
-```
-
-## How-to
+## Usage
 
 The entry point of the project is ```scripts/main.sh```.
 
 ```
 > ./scripts/main.sh
-DEMISEC | Select an action to perform...
+GENIE | Select an action to perform...
 1) Help
 2) Exit
 3) Setup
 4) Delete
-DEMISEC >
+GENIE >
 ```
 
-It is necessary to prepare the directory before start working on the project.
+It is necessary to initialize the project before starting to work on it.
 
 ```
-DEMISEC > 3
+GENIE > 3
 Setting up project...
 mkdir: created directory '1_Registry/'
 mkdir: created directory '1_Registry/NPM/'
@@ -74,74 +77,39 @@ mkdir: created directory 'log/4_clean/'
 mkdir: created directory 'log/5_query/'
 mkdir: created directory 'log/6_hash/'
 mkdir: created directory 'log/parallel/'
-DEMISEC >
+GENIE >
 ```
 
-To download each NPM's package.
-
+- To download every package from the npm registry.
 ```
 > nohup ./scripts/main.sh -d > download.out &
 ```
 
-To check the progress of the last command.
-
-```
-> tail -f download.out
-```
-
-To build a CodeQL's database for each NPM's package.
-
+- To build the database for every package from the npm registry.
 ```
 > nohup ./scripts/main.sh -b > build.out &
 ```
 
-To check the progress of the last command.
-
-```
-> tail -f build.out
-```
-
-To compact the disk space for all CodeQL's databases.
-
+- To compact the disk space used by the databases.
 ```
 > nohup ./scripts/main.sh -c > clean.out &
 ```
 
-To check the progress of the last command.
-
-```
-> tail -f clean.out
-```
-
-To apply some query to all CodeQL's databases.
-
+- To apply some queries to the databases.
 ```
 > nohup ./scripts/main.sh -q <QUERY_PATH> > <QUERY_NAME>.out &
 ```
 
-To check the progress of the last command.
-
-```
-> tail -f <QUERY_NAME>.out
-```
-
-To see a pretty-print message with some log information.
-
+- To see a pretty-print message with some log information.
 ```
 > nohup ./scripts/main.sh -l <LOG_PATH> > log.out &
 ```
 
-To calculate the SHA fingerprint for each NPM's package.
-
+- To calculate the SHA fingerprint for every package from the npm registry.
 ```
 > nohup ./scripts/main.sh -h > hash.out &
 ```
 
-To check the progress of the last command.
-
-```
-> tail -f hash.out
-```
 
 ## Organization
 
@@ -153,6 +121,9 @@ To check the progress of the last command.
 --| ...
 | codeql/
 --| ...
+| data/
+--| stats_evaluation/
+--| stats_obfuscation/
 | packages/
 --| dataset/
 --| report/
