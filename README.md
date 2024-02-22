@@ -1,5 +1,5 @@
 # GENIE
-### Guarding the npm Ecosystem: CodeQL-based Detection of Malicious Packages
+### Guarding the npm Ecosystem with Semantic Malware Detection
 
 
 ---
