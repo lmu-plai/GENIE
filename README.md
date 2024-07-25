@@ -1,6 +1,9 @@
 # GENIE
 ### Guarding the npm Ecosystem with Semantic Malware Detection
 
+This is the artifact for our SecDev '24 paper "GENIE: Guarding the npm Ecosystem with Semantic Malware Detection", which presents an approach to thwart malware campaigns by developing semantic specifications to match similar malware with single behavioral signatures.
+The artifact contains the scripts of the GENIE framework, the developed CodeQL queries, the malicious npm packages, and the collected data used for our performance and obfuscation experiments.
+
 
 ---
 
@@ -10,6 +13,9 @@
 The repository contains malicious packages that were uploaded to the npm registry.
 In ```packages/dataset/``` we include the packages that were used to develop the CodeQL queries.
 In ```packages/report/``` we include the packages that were detected as malicious once applied our approach.
+
+
+---
 
 
 ## Overview
